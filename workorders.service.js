@@ -42,7 +42,7 @@ export class WorkordersService {
     }
   ];
 
-  getAllWorkorders(): Workorder[] {
+  getAllWorkorders() {
     return this.workorders;
   }
 }
